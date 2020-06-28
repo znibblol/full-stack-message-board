@@ -14,7 +14,7 @@
     </ul>
 
     <div class="add-form col-sm-2 bg-secondary">
-      <form>
+      <form @submit.prevent="addMessage">
         <div class="form-group">
           <label for="username">Username</label>
           <input type="text" name="username" id="username" class="form-control" value="Anonymous">
@@ -29,10 +29,10 @@
           <span class="text-muted small">{{ totChar }} / 500</span>
         </div>
         <div class="form-group">
-          <label for="imageUrl">Upload image</label>
-          <input type="file" name="imageUrl" id="imageUrl">
+          <label for="imageUrl">Image URL</label>
+          <input type="url" name="imageUrl" id="imageUrl" class="form-control">
         </div>
-        <button type="submit" class="btn btn-secondary btn-block"></button>
+        <button type="submit" class="btn btn-primary btn-block">Add message</button>
       </form>
     </div>
 
