@@ -60,6 +60,9 @@ export default {
     },
     charCount() {
       this.totChar = this.messageLength.length;
+    },
+    addMessage() {
+      
     }
   },
 }
