@@ -9,20 +9,24 @@
     * [x] Vue create client
     * [x] Add bootswatch CSS
     * [x] Homepage layout
-* [ ] Add DB to server
+* [x] Add DB to server
     * [x] Add monk joi
     * [x] Create message model
-    * [ ] Create route to add message to db
-        * [ ] Validate message with joi
+    * [x] Create route to add message to db
+        * [x] Validate message with joi
             * username - default to anonymous
             * subject
             * message
             * imageURL
             * created_at
-        * [ ] insert message to db
-        * [ ] respond with inserted message
+        * [x] insert message to db
+        * [x] respond with inserted message
+* [ ] When page loads show all messages on page
+    * [ ] Server route to GET all messages
 * [ ] Create new message form on client
     * [ ] Submit form - fetch POST to server
+    * [ ] Show any errors
+    * [ ] Show new message on page
 * [ ] User can reply to a message
     * [ ] Reply appears under original message
 * [ ] Group messages into categories
