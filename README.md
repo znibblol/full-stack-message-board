@@ -10,8 +10,8 @@
     * [x] Add bootswatch CSS
     * [x] Homepage layout
 * [ ] Add DB to server
-    * [ ] Add monk joi
-    * [ ] Create message model
+    * [x] Add monk joi
+    * [x] Create message model
     * [ ] Create route to add message to db
         * [ ] Validate message with joi
             * username - default to anonymous
