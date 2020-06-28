@@ -8,7 +8,7 @@
 * [x] Create Client folder
     * [x] Vue create client
     * [x] Add bootswatch CSS
-    * [ ] Homepage layout
+    * [x] Homepage layout
 * [ ] Add DB to server
     * [ ] Add monk joi
     * [ ] Create message model
