@@ -48,7 +48,7 @@
 </template>
 
 <script>
-const API_URL = 'http://localhost:1337/messages';
+const API_URL = 'https://full-stack-message-board-znibb.herokuapp.com/messages';
 
 export default {
   name: 'Home',

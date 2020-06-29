@@ -3,7 +3,6 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
         <div class="container">
             <router-link to="/">Full stack message board</router-link>
-            <router-link to="/apa">Apa</router-link>
         </div>
     </nav>
   </div>
