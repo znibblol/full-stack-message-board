@@ -21,12 +21,12 @@
             * created_at
         * [x] insert message to db
         * [x] respond with inserted message
-* [ ] When page loads show all messages on page
-    * [ ] Server route to GET all messages
-* [ ] Create new message form on client
-    * [ ] Submit form - fetch POST to server
-    * [ ] Show any errors
-    * [ ] Show new message on page
+* [x] When page loads show all messages on page
+    * [x] Server route to GET all messages
+* [x] Create new message form on client
+    * [x] Submit form - fetch POST to server
+    * [x] Show any errors
+    * [x] Show new message on page
 * [ ] User can reply to a message
     * [ ] Reply appears under original message
 * [ ] Group messages into categories
